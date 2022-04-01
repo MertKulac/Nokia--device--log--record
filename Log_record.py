@@ -20,7 +20,7 @@ fp = open("config.txt", "r")
 command_list_tan = fp.readlines()
 fp.close()
 
-record_log = open("log_rbc.txt", "a+")
+record_log = open("log_Nokia.txt", "a+")
 
 def func_timeout(node_info):
     print(node_info.strip() + ' is not accessible ' + '(' + time.ctime() + ')\n')
